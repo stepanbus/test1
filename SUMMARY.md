@@ -1,4 +1,4 @@
 ### Summary
 
-* [Описание ядра](intro/README.md)
-  * [Шлюз Exschange](intro/who.md)
+* [Описание ядра](IntServices/README.md)
+  * [Шлюз Exschange](IntServices/who.md)
