@@ -1,5 +1,4 @@
 ### Summary
 
-* [Лирическое вступление](intro/README.md)
-  * [Кто](intro/who.md)
-  * [Пихто](intro/who.md)
+* [Описание ядра](intro/README.md)
+  * [Шлюз Exschange](intro/who.md)
