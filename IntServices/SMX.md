@@ -20,6 +20,6 @@ This is an H2
 
 [I'm an inline-style link](https://www.google.com)
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-[I'm a reference-style link][/IntServices/msxch.md]
-[I'm a relative reference to a repository file](/IntServices/msxch.jpg)
+[I'm a reference-style link][Здесь должно присутсвовать восхитительное описание]
+[I'm a relative reference to a repository file](/IntServices/MsExch.JPG)
 
