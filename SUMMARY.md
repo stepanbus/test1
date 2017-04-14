@@ -7,5 +7,5 @@
   * [Шлюз Exschange](IntServices/msxch.md)
     * [Таблица Маршрутизации](IntServices/msxch/msxchParam.md)
   * [Шлюз СМС сервера](IntServices/sms.md)
-* Проверочная статья
+* [Проверочная статья](proverochnaya-statya.md)
 
