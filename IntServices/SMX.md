@@ -18,8 +18,11 @@ This is an H2
 # hello
 #hello
 
-[I'm an inline-style link](https://www.google.com)
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[Ссылка на гугл](https://www.google.com)
+
+[Ссылка на гугл с заголовком](https://www.google.com "Google's Homepage")
+
 [I'm a reference-style link][1]
-[I'm a relative reference to a repository file](/IntServices/MsExch.JPG)
+
+[Ссылка на файл в репозитории](/IntServices/MsExch.JPG)
 
