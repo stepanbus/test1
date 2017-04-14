@@ -1,4 +1,4 @@
 ### Summary
 
-* [Описание ядра](IntServices/README.md)
+* [Описание ядра](IntServices/SMX.md)
   * [Шлюз Exschange](IntServices/msexch.md)
