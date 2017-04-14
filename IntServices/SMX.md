@@ -26,7 +26,7 @@ This is an H2
 
 [Ссылка на файл в репозитории](/IntServices/MsExch.JPG)
 
-```js
+```xml
 Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста Много текста
 ```
 
@@ -48,46 +48,4 @@ This is an H2
   `#адрес получателя для тестового режима`
   
   `SKB.test.RecipientEmailAddress=Test@skbbank.ru
-GEB.test.RecipientEmailAddress=Test@skbbank.ru
-#файл xslt-преобразования для тестового режима - подменяет в исходном сообщении 
-#адреса получателей на адрес из настройки test.RecipientEmailAddress
-test.TransformXSLfile=resources/exch_istestmode.xsl
-#====================================================================================
-MainOrganization=SKB
-#настройки activemq ===================================================================
-Q_IN=SRV.MSEXCH
-Q_OUT=SMX.Router
-maxConnections=1
-concurrentConsumers=1
-#Настройки Echange =====================================================================================
-exchange.URL=https://hq-exhc.corp.skbbank.ru/EWS/Exchange.asmx
-exchange.ReceiveTimeout=60000
-exchange.ConnectionTimeout=30000
-exchange.MajorVersion=14
-#настройки хранилища сертификата =====================================================
-trustStore.file=resources/cacerts.jks
-trustStore.password=ENC(xxxxxxxxxxxxxxxxxxxxxxxx)
-#файл конфигурации kerberos
-kerberos.fileconf=resources/krb5.conf
-# =====================================================================================
-#при авторизации через kerberos указывается пользователь без указания домена
-SKB.mail.login=mailgate_robot
-SKB.mail.password=ENC(xxxxxxxxxxxxxxxxxxxxxxxxxxxx)
-GEB.mail.login=mailgate_geb_robot
-GEB.mail.password=ENC(xxxxxxxxxxxxxxxxxxxxxxxxxxx)
-#адрес, указанный в качестве адреса отправителя
-mail.SenderEmailAddress=no_reply@skbbank.ru
-#====================================================================================
-#Очередь для сообщений, которые не удалось записать в БД
-Q_CatchInsert=SRV.MSEXCH.CatchInsert
-#таймер для роута вычитки из Q_CatchInsert для повторной попытки записи в БД (милисекунд)
-CatchInsert_Timer=60000
-#настройки шедулера  =================================================================
-#периодичность запуска
-scheduler.period=60s
-scheduler.maxPoolSize=1
-#таймаут для уведомления о чтении (в минутах!) 180
-scheduler.readTimeout=180
-#таймаут для уведомления о доставке (в минутах!) 180
-scheduler.deliverTimeout=180`
 
